@@ -148,7 +148,7 @@ function App() {
           <div className="projects-grid">
             <div className="project-card">
               <div className="project-image">
-                <img src="/img/kmeans_5G.jpg" alt={t.projects.project1.alt} />
+                <img src="/img/kmeans_5g.jpg" alt={t.projects.project1.alt} />
               </div>
               <div className="project-content">
                 <h3 className="project-name">{t.projects.project1.name}</h3>
