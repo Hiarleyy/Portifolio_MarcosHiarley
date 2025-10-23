@@ -76,7 +76,7 @@ function App() {
           <div className="hero-image">
             <div className="profile-circle">
               {/* Adicione sua foto aqui */}
-              <img src="public/img/profile.jpg" alt="Marcos Hiarley" />
+              <img src="/img/profile.jpg" alt="Marcos Hiarley" />
             </div>
           </div>
         </div>
@@ -127,9 +127,9 @@ function App() {
 
             </svg>
           
-            <img width="130" height="86" src="public\img\lena_logo.png" alt="aa" />
-            <img width="130" height="86" src="public\img\ns-3-notext.png" alt="aa" />
-            <img width="130" height="70" src="public\img\LoRaWAN_Logo.svg.png" alt="aa" />
+            <img width="130" height="86" src="/img/lena_logo.png" alt="aa" />
+            <img width="130" height="86" src="/img/ns-3-notext.png" alt="aa" />
+            <img width="130" height="70" src="/img/LoRaWAN_Logo.svg.png" alt="aa" />
 
           
 
@@ -148,7 +148,7 @@ function App() {
           <div className="projects-grid">
             <div className="project-card">
               <div className="project-image">
-                <img src="public/img/kmeans_5G.jpg" alt={t.projects.project1.alt} />
+                <img src="/img/kmeans_5G.jpg" alt={t.projects.project1.alt} />
               </div>
               <div className="project-content">
                 <h3 className="project-name">{t.projects.project1.name}</h3>
@@ -157,7 +157,7 @@ function App() {
 
             <div className="project-card">
               <div className="project-image">
-                <img src="public/img/Bat5G.png" alt={t.projects.project2.alt} />
+                <img src="/img/Bat5G.png" alt={t.projects.project2.alt} />
               </div>
               <div className="project-content">
                 <h3 className="project-name">{t.projects.project2.name}</h3>
@@ -166,7 +166,7 @@ function App() {
 
             <div className="project-card">
               <div className="project-image">
-                <img src="public/img/loraWan_project.png" alt={t.projects.project3.alt} />
+                <img src="/img/loraWan_project.png" alt={t.projects.project3.alt} />
               </div>
               <div className="project-content">
                 <h3 className="project-name">{t.projects.project3.name}</h3>
@@ -175,7 +175,7 @@ function App() {
 
             <div className="project-card">
               <div className="project-image">
-                <img src="public/img/AlphaSuplementos.png" alt={t.projects.project4.alt} />
+                <img src="/img/AlphaSuplementos.png" alt={t.projects.project4.alt} />
               </div>
               <div className="project-content">
                 <h3 className="project-name">{t.projects.project4.name}</h3>
@@ -184,7 +184,7 @@ function App() {
 
             <div className="project-card">
               <div className="project-image">
-                <img src="public/img/redacaoelite.png" alt={t.projects.project5.alt} />
+                <img src="/img/redacaoelite.png" alt={t.projects.project5.alt} />
               </div>
               <div className="project-content">
                 <h3 className="project-name">{t.projects.project5.name}</h3>
@@ -193,7 +193,7 @@ function App() {
 
             <div className="project-card">
               <div className="project-image">
-                <img src="public/img/esteticaAutomotiva.png" alt={t.projects.project6.alt} />
+                <img src="/img/esteticaAutomotiva.png" alt={t.projects.project6.alt} />
               </div>
               <div className="project-content">
                 <h3 className="project-name">{t.projects.project6.name}</h3>
